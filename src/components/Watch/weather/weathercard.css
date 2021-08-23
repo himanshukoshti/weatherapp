@@ -1,0 +1,111 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.backdrop{
+    background: rgb(47,97,231);
+    background: linear-gradient(51deg, rgba(47,97,231,1) 0%, rgba(248,200,97,1) 100%);
+    height: 539px;
+    width: auto;
+    position: relative;
+}
+.searchbox{
+    border-radius: 0;
+    border-style: none;
+    width: 100%;
+    height: 38px;
+}
+.search_btn{
+    color: white;
+    background-color: darkolivegreen;
+}
+.card{
+    height: 320px;
+    width: 500px;
+    background-color: rgba(240, 255, 240, 0.356);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 14px 0 rgb(39, 38, 38);   
+}
+@media only screen and (max-width: 780px) {
+    .backdrop{
+        background: rgb(47,97,231);
+        background: linear-gradient(51deg, rgba(47,97,231,1) 0%, rgba(248,200,97,1) 100%);
+        height: 845px;
+    }
+    .card{
+        height: 730px;
+        width: 350px;
+        position: absolute;
+        top: 110px;
+    }
+    .weather{
+        margin-bottom: 20px;
+    }
+    .circle{
+        position: relative;
+        left: 80px;
+    }
+    .circle_des{
+        position: relative;
+        top: -50px;
+        left: 20px;
+    }
+    .api_data{
+        position: relative;
+        top: -50px;
+        left: 20px;
+    }
+  }
+.place{
+    padding-left: 70px;
+}
+#icon{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.temperature{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+.weather{
+    font-size: 20px;
+}
+/* .strap{
+    background-color: rgb(8, 38, 92);
+    color: white;
+} */
+.city_div{
+    margin-top: -15px;
+}
+.city{
+    font-size: 45px;
+    text-shadow: 3px 3px 3px rgb(114, 113, 113);
+}
+/* .circle_box{
+    border: 1px solid blue;
+    
+} */
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(60, 82, 153, 0.322);
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgb(61, 2, 2);
+    margin-left: 3px;
+}
+.circle_des{
+    font-size: 14px;
+    margin-top: 5px;
+}
+#icon_btm{
+    font-size: 30px;
+    margin-top: 11px;
+}
+.sunsettime{
+    font-size: 14px;
+    margin-top: 4px;
+}
